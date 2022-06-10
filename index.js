@@ -4,6 +4,8 @@ const c = canvas.getContext('2d');
 canvas.width = 1024
 canvas.height = 576
 
+//zouden meer comments in passen
+
 c.fillRect(0, 0, canvas.width, canvas.height)
 
 class Sprite {
@@ -55,6 +57,8 @@ function animate() {
     terrain2.update()
 }
 
+//lijkt mij dat er meer ; in de code zou horen te zitten, ik weet het niet zeker
+
 animate()
 
 document.addEventListener("mousemove", () => {
@@ -66,3 +70,4 @@ document.addEventListener("mousemove", () => {
   if (mousex, mousey == terrain1.position.x, terrain1.position.y) {
     location.reload();
   }
+//verder lijkt de code in goede orde
